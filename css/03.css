@@ -1,0 +1,212 @@
+body{
+		margin: 0;
+		padding: 0;
+	}
+
+.back{
+	width:100%;
+	height:653px;
+	background-color: rgb(33,28,27);
+	text-align: center;
+	padding-top: 100px;
+}
+
+h1{
+	padding-top: 80px;
+	color:white;
+	text-align: center;
+	font-weight: normal;
+}
+
+.main-left{	
+	padding-top: 4px;
+	padding-left: 35px;
+	width: 800px;
+	height: 486px;
+	display: inline-block;
+	background-color: rgb(33,28,27);
+}
+
+.main-right{
+	float: right;
+	width: 230px;
+	height: 290px;
+	display: inline-block;
+	padding-top: 25px;
+	padding-left: 22px;
+	margin-right: 105px;
+	background-color: rgb(255,255,255);
+}
+
+.main-right .in{
+	margin-top: 18px;
+	width: 200px;
+	height:170PX;
+	padding-top: 15px; 
+	margin-bottom: 15PX;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.main-right .in .table div{
+	width: 204px;
+	height: 36px;
+	font-size: 14px;
+	border:1px solid rgba(0,0,0,0.1);
+	text-decoration: none;
+	text-align: center;
+	line-height: 36px;
+	color: black;
+}
+
+.main-right .in a {
+	color: black;
+	text-decoration: none;
+}
+
+.main-right .in a:hover,.main-right .in .table div :hover {
+	color: rgb(237,176,89);
+	text-decoration: underline;
+}
+
+.main-right .search{
+	width: 200PX;
+	height: 26px;
+	color: rgba(0,0,0,0.5);
+	border:1px solid rgba(0,0,0,0.2);
+}
+
+.main-right .search input{
+	border: 0px;
+}
+
+.main-right .last{	
+	text-decoration: none;
+	color: black;
+}
+
+.main-right .last:hover {
+	color: rgb(237,176,89);
+	text-decoration: underline;
+}
+
+.top{
+	width:100%;
+	height: 65px;
+	color: #ccc;
+	background:rgb(33,28,27);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;		
+}
+
+.top>a{		
+	width:135px;
+	height: 65px;
+	margin-left: 100px;
+}
+
+.text{
+	float:right;
+}
+	
+.text>a{
+	margin-right: 10px;
+	margin-top: 20PX;		
+	color: #ccc;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: right;
+	float: right;
+}
+
+.text>a.hot{
+	color: rgb(237,176,89);
+	font-size: 16px;
+	text-decoration: none;
+}
+
+div.text{
+	margin-right: 100px;
+}
+
+.text>a:hover {		
+	color: rgb(237,176,89);
+}                                                                                                                                                                                                                                                            
+
+.first{
+	line-height: 32px;
+	width:770px;
+	height:380PX;
+}
+
+.first>p{
+	/* width: 620px; */
+	color: #ccc;
+	display: inline-block;
+	font-size: 14px;
+	font-family: YaHei;
+	line-height: 27px;
+}
+
+.first>p>a{
+	text-decoration: none;	
+	color: #ccc;
+	font-size: 16px;
+	font-family: YaHei;
+	font-weight: bold;
+}
+
+.first>img{
+	width: 140px;
+	height: 130PX;
+	display: inline-block;
+	
+}
+
+.c{
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+	height: 120PX;
+	background-color: rgb(245,245,245);
+	margin-top: 20px;
+	position: relative;
+}
+
+.c>p{
+	color: rgba(0,0,0,0.3) ;
+	font-size: 14px;
+}
+
+.c>a{
+	color: rgb(237,176,89);
+	text-decoration: none;
+}
+
+.c>a:hover {
+	text-decoration: underline;
+}
+
+.c .icon-weixin{
+	width:5px;
+	height: 5px;
+	color: green;
+	margin-right: 10px;			
+}
+
+.c .icon-qq{
+	width:5px;
+	height: 5px;
+	color: rgb(237,176,89);
+	margin-right: 10px;	
+}
+.c .icon-youxiang{
+	width:5px;
+	height: 5px;
+	color: orange;
+	position: absolute;		
+	margin-right: 10px;
+}
+
